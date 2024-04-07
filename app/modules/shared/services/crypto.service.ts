@@ -1,6 +1,6 @@
 import { createCipheriv, createDecipheriv } from 'crypto';
 
-import { config } from '../../../../config/app/index';
+import { config } from '../../../../../config/app';
 
 const { crypto } = config;
 const { cipher: cipherConfig, decipher: decipherConfig } = crypto;

@@ -1,7 +1,7 @@
 import { FindOneOptions, FindOptionsWhere, SelectQueryBuilder } from 'typeorm';
 
-import { SortOrder } from '../../../webapp/shared/types/sort-order.type';
 import { CriteriaResult } from '../interfaces/criteria-result.interface';
+import { SortOrder } from '../types/sort-order.type';
 
 export class TypeOrmQueryBuilder<T> {
 	constructor(

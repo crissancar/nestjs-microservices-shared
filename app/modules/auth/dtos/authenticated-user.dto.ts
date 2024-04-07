@@ -1,4 +1,4 @@
-import { UserAudiences } from '../../../webapp/users/enums/user-audiences.enum';
+import { UserAudiences } from '../../users/enums/user-audiences.enum';
 
 export class AuthenticatedUser {
 	readonly correlation: never;

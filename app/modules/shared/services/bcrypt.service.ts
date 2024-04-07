@@ -1,6 +1,6 @@
 import { compareSync, hashSync } from 'bcrypt';
 
-import { config } from '../../../../config/app/index';
+import { config } from '../../../../../config/app';
 
 const { bcrypt } = config;
 

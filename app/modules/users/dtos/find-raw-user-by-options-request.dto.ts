@@ -1,7 +1,7 @@
-import { User } from '../../../webapp/users/models/user.model';
 import { Exact } from '../../shared/types/exact.type';
 import { FindByOptions } from '../../shared/types/find-by-options.type';
 import { FindRawUserByOptionsRequestInterface } from '../interfaces/find-raw-user-by-options-request.interface';
+import { User } from '../models/user.model';
 
 export class FindRawUserByOptionsRequest
 	implements Exact<FindRawUserByOptionsRequestInterface, FindRawUserByOptionsRequest>
